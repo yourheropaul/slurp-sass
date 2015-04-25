@@ -9,7 +9,7 @@ Sample `slurp.go` code:
             return fs.Src(c,
                 "./input/scss/*.scss",
             ).Then(
-                Compile(c),
+                sass.Compile(c),
                 util.Concat(c, "app.css"),
                 fs.Dest(c, "./output/css/"),
             )
