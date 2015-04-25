@@ -16,4 +16,4 @@ Sample `slurp.go` code:
         },
     },
 
-Note: To conform with the standards of the Ruby Sass/Compass tools, .scss files prefixed with an underscore will not be compiled unless directly @imported.
+Note: To conform with the standards of the Ruby Sass/Compass tools, .scss files prefixed with an underscore will not be compiled unless directly `@import`ed.
